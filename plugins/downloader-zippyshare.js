@@ -14,7 +14,5 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['zippyshare']
 handler.tags = ['downloader']
-handler.alias = ['zs', 'zippy', 'zippydl', 'zippyshare']
 handler.command = /^z(s|ippy(dl|share)?)$/i 
-
 export default handler
