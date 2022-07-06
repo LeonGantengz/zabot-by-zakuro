@@ -8,12 +8,10 @@ let handler = async (m, { conn, args, usedPrefix, command, text}) => {
 ╭⋆┈⋆┈⋆┈⋆⊰✩⊱⋆┈⋆┈⋆┈⋆╮
 ╽🤖️ Tulis nama 
 ┃Akun Instagram
-┃\n\n
+┃
 ┃🤖 contoh : ${usedPrefix + command} leonvx._
-╰•⋆҈͜͡ ⫘𝐓𝐔𝐑𝐁𝐎⋆𝐍𝐈𝐓𝐑𝐎⫘⋆҈͜͡•╯`
+╰•Yui-Chan By Rama•╯`
        
-  await m.reply(wait)
-  
    hx.igstory(text).then(async (result) => {
           for (let i of result.medias) {
             if (i.url.includes("mp4")) {            
