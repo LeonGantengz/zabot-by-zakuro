@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
     conn.sendMessage(m.chat, { document: { url: res.download }, fileName: res.filename, mimetype }, { quoted: m })
   }
 }
-handler.help = ['zippyshare']
+handler.help = ['zippyshare'] 
 handler.tags = ['downloader']
 handler.command = /^z(s|ippy(dl|share)?)$/i 
 export default handler
